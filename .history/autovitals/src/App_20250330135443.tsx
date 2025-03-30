@@ -4,10 +4,10 @@ import Header from "./components/Header";
 
 
 function App() {
-  return (  
-    console.log("App"),
+  return (  // You need to return JSX inside the function
       <div>
-          <Header /> 
+          <Header />  {/* This is how you call your Navbar */}
+          <p>Welcome to my website!</p>
       </div>
   );
 }

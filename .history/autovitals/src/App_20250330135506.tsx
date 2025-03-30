@@ -5,7 +5,6 @@ import Header from "./components/Header";
 
 function App() {
   return (  
-    console.log("App"),
       <div>
           <Header /> 
       </div>
